@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -13,16 +13,16 @@
          <a class="main-header-logo" href="/">
           <img src="img/icons/logo.svg" width="138" height="70"alt="Cyti of Sedona">
          </a>
-         <div class="main-navigation-wrapper">
-          <div class="container">
+           <div class="container">
             <ul class="site-navigation">
              <li><a href="#">Информация</a></li>
               <li><a href="#">Фото и видео</a></li>
+              <li class="nav-wrapper"></li>
               <li><a href="#">Карта штата</a></li>
               <li><a href="Hotels.html">Гостиницы</a></li>
             </ul>
           </div>
-        </div>
+        
       </nav>
     </header>  
     <main>
@@ -40,29 +40,33 @@
         <h2>Седона — небольшой городок в Аризоне,</br> заслуживающий большего</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
-      <section>
-        <h3>Настоящий городок</h3>
-        <span>№1</span>
-        <p>Седона - не аттракцион для туристов,<br/>
+      <section class="sity">
+        <div class="sity-wrapper"> 
+          <h3>Настоящий городок</h3>
+          <span>-№1-</span>
+          <p>Седона - не аттракцион для туристов,<br/>
           там течёт своя жизнь</p>
-        <img src="img/sity.jpg" width="800" height="256"alt="foto Cyti of Sedona">
+          </div>
+        <div class="img-wrapper">  
+          <img src="img/sity.jpg" width="800" height="256"alt="foto Cyti of Sedona">
+        </div>
       </section>
-      <section>
-        <ul>
+      <section class="recreation">
+        <ul class="recreation-list">
           <li>
             <span class="icon-home"></span>
             <h3>Жилье</h3>
-            <p>Жильё Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <p>Рекомендуем пожить в настоящем<br/> мотеле, всё как в кино!</p>
           </li>
           <li>
             <span class="icon-food"></span>
             <h3>Еда</h3>
-            <p>Еда Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            <p>Всегда заказывайте фирменный бургер,<br/> вы не разочаруетесь!</p>
           </li>
           <li>
             <span class="icon-present"></span>
             <h3>Сувениры</h3>
-            <p>Сувениры Не только китайского, но и местного производства!</p>
+            <p>Не только китайского, но и местного<br/> производства!</p>
           </li>
         </ul>
       </section>
