@@ -192,7 +192,6 @@ img{
 }
 .recreation-list li{
   height: 191px;
-  
 }
 .icon-home{
   background-image:url(/img/icons/icon-home.svg);
@@ -224,4 +223,50 @@ img{
 }
 .recreation-list p{
   margin-bottom: 22px;
+}
+.canyon{
+  display: flex;
+}
+.canyon-wrapper{
+  width: 400px;
+  background-color:var(--basic-blue);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color:var(--basic-white);
+}
+.canyon-wrapper h3{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  margin: 0;
+  padding-top: 50px;
+}
+.canyon-wrapper span{
+  padding-top: 25px;
+  display: block;
+}
+.canyon-wrapper p{
+  padding-top: 23px;
+  margin:0;
+}
+.advantages{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  background-color:var(--basic-grey);
+  list-style: none;
+}
+.advantages-list{
+  list-style: none;
+  display: flex;
+  height: 256px;
+  margin: 0;
+  padding: 0;
+  align-items:center;
+  justify-content: space-around;
 }
