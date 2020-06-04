@@ -274,6 +274,7 @@ img{
   align-items:center;
   justify-content: space-around;
 }
+<<<<<<< HEAD
 .interested{
   text-align: center;
   text-transform: uppercase;
@@ -310,3 +311,32 @@ img{
   background:no-repeat;
   height: auto;
 }
+=======
+
+/*footer*/
+
+.main-footer{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer{
+  display: flex;
+  background-color:var(--basic-white);
+  height: 120px;
+  align-items:center;
+  justify-content: space-between;
+}
+.footer-contacts{
+  border: 5px solid red;
+}
+.footer-social ul{
+  list-style: none;
+  border: 5px solid red;
+}
+.footer-copyright{
+  border: 5px solid red;
+}
+
+/*border: 5px solid red;*/
+>>>>>>> 2633a7d456e752b43f2036bd03b84ad74bc43ec8
