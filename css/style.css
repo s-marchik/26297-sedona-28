@@ -274,7 +274,6 @@ img{
   align-items:center;
   justify-content: space-around;
 }
-<<<<<<< HEAD
 .interested{
   text-align: center;
   text-transform: uppercase;
@@ -292,6 +291,7 @@ img{
 .map{
   background-image:url(/img/map1.jpg);
   background-repeat: no-repeat;
+  height: 594px;
 }
 
 
@@ -311,7 +311,6 @@ img{
   background:no-repeat;
   height: auto;
 }
-=======
 
 /*footer*/
 
@@ -339,4 +338,3 @@ img{
 }
 
 /*border: 5px solid red;*/
->>>>>>> 2633a7d456e752b43f2036bd03b84ad74bc43ec8
