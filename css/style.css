@@ -39,6 +39,10 @@ section{
   width: 1200px;
   margin: 0 auto;
 }
+article{
+  width: 1200px;
+  margin: 0 auto;
+}
 nav{
   width: 1200px;
   margin: 0 auto;
@@ -269,4 +273,40 @@ img{
   padding: 0;
   align-items:center;
   justify-content: space-around;
+}
+.interested{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  background-color:var(--basic-white);
+  list-style: none;
+}
+.interested h4{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+}
+.map{
+  background-image:url(/img/map1.jpg);
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*hotels*/
+.choice{
+  background-image:url(/img/background_hotels.jpg);
+  background:no-repeat;
+  height: auto;
 }
