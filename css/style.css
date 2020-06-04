@@ -270,3 +270,30 @@ img{
   align-items:center;
   justify-content: space-around;
 }
+
+/*footer*/
+
+.main-footer{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer{
+  display: flex;
+  background-color:var(--basic-white);
+  height: 120px;
+  align-items:center;
+  justify-content: space-between;
+}
+.footer-contacts{
+  border: 5px solid red;
+}
+.footer-social ul{
+  list-style: none;
+  border: 5px solid red;
+}
+.footer-copyright{
+  border: 5px solid red;
+}
+
+/*border: 5px solid red;*/
