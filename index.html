@@ -113,27 +113,6 @@
           </a>
         </div>
       </section>
-      <section class="form visually-hidden">
-        <form action="https://echo.htmlacademy.ru" method="post">           
-        <p>
-          <label for="arrival-date">Дата заезда:</label>
-          <input id="arrival-date" type="text" name="date" placeholder="27 Апреля 2017">
-        </p>
-        <p>
-          <label for="date-of-departure">Дата выезда:</label>
-          <input id="date-of-departure" type="text" name="date" placeholder="4 Июля 2017">
-        </p>
-        <p>
-          <label for="adults">Взрослые</label>
-          <input id="adults" type="number" placeholder="2">
-        </p>
-        <p>
-          <label for="children">Дети</label>
-          <input id="children" type="number"  placeholder="0">
-        </p>
-        <button type="submit">Найти</button>
-        </form>
-      </section>    
       <section>
         <div class="map"></div>
       </section>
@@ -175,5 +154,29 @@
         </p> 
       </div>
     </footer>
+
+    <section class="form <!--visually-hidden-->">
+      <form action="https://echo.htmlacademy.ru" method="post"> 
+        <div class="arrival"> 
+      <p>
+        <label for="arrival-date">Дата заезда:</label>
+        <input class="date-form calendar" id="arrival-date" type="text" name="date" placeholder="27 Апреля 2017">
+      </p>
+      <p>
+        <label for="date-of-departure">Дата выезда:</label>
+        <input class="date-form calendar" id="date-of-departure" type="text" name="date" placeholder="4 Июля 2017">
+      </p>
+      <p>
+        <label for="adults">Взрослые</label>
+        <input id="adults" type="number" placeholder="2">
+      </p>
+      <p>
+        <label for="children">Дети</label>
+        <input id="children" type="number"  placeholder="0">
+      </p>
+      <button type="submit">Найти</button>
+      </form>
+    </div>
+    </section>    
   </body>
 </html>
