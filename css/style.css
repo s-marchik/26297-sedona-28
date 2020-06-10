@@ -456,6 +456,12 @@ img{
 .footer-copyright>a{
   margin-left: 8px;
 }
+.footer-copyright a:hover{
+  background-color:var(--special-blue-hover);
+}
+.footer-copyright a:focus{
+  background-color:var(--special-grey-focus);
+}
 /*.index-footer{
   content: '';
   background: rgba(255, 255, 255, 0.9);
