@@ -105,7 +105,50 @@ img{
 .site-navigation a:focus {
   background-color: var(--special-blue-focus);
 } 
+.trait{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.trait::before,
+.trait::after {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 1px;
+  background: var(--basic-white);
+}
+.trait::before {
+  margin-right: 5px;
+  margin-top: 3px;
+}
 
+.trait::after {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.trait-black{
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.trait-black::before,
+.trait-black::after {
+display: inline-block;
+content: "";
+width: 8px;
+height: 1px;
+background: var(--basic-black-font);
+}
+.trait-black::before {
+margin-right: 5px;
+margin-top: 3px;
+}
+
+.trait-black::after {
+margin-left: 5px;
+margin-top: 3px;
+}
 /* Features */
 .welcome{
   display:flex;
@@ -171,7 +214,6 @@ img{
 }
 .sity-wrapper span{
   padding-top: 25px;
-  display: block;
 }
 .sity-wrapper p{
   padding-top: 23px;
@@ -250,7 +292,6 @@ img{
 }
 .canyon-wrapper span{
   padding-top: 25px;
-  display: block;
 }
 .canyon-wrapper p{
   padding-top: 23px;
