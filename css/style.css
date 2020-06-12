@@ -461,10 +461,13 @@ left: 425px;
 
 
 /*hotels*/
-.choice{
+.filters{
   background-image:url(/img/background_hotels.jpg);
+  background-repeat: no-repeat;
 }
-
+.found{
+  background-color:var(--basic-white);
+}
 /*footer*/
 
 .main-footer{
