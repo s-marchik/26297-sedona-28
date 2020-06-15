@@ -19,6 +19,8 @@
     --special-blue-focus:#5496BD;
     --special-grey-hover:#604E43;
     --special-grey-focus:#503E33;
+    --special-grey-hover-form:#ebebeb;
+    --special-grey-focus-form-border:#E5E5E5;
   }
 
   /* Global */
@@ -87,7 +89,10 @@ img{
   justify-content: space-between;
   align-items:center;
   list-style: none;
-  padding: 0 73px;
+  padding: 0 58px;
+}
+.site-navigation li:nth-child(2){
+  padding-right: 50px;
 }
 .site-navigation li:nth-child(3){
   width: 140px;
@@ -120,12 +125,12 @@ img{
 }
 .trait::before {
   margin-right: 5px;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .trait::after {
   margin-left: 5px;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 .trait-black{
 display:flex;
@@ -142,12 +147,12 @@ background: var(--basic-black-font);
 }
 .trait-black::before {
 margin-right: 5px;
-margin-top: 3px;
+margin-top: 2px;
 }
 
 .trait-black::after {
 margin-left: 5px;
-margin-top: 3px;
+margin-top: 2px;
 }
 /* Features */
 .welcome{
@@ -170,10 +175,8 @@ margin-top: 3px;
   height: 57px;
 }
 .intro{
-  background: #fff;
+  background:var(--basic-white);
   position: relative;
-  padding: 20px 0;
-  height: 216px;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
@@ -184,10 +187,13 @@ margin-top: 3px;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-  padding-top: 42px;
+  padding-top: 40px;
+  margin: 0;
 }
 .intro p{
-  padding-bottom: 51px;
+  padding-top: 42px;
+  padding-bottom: 55px;
+  margin: 0;
 }
 .sity{
   display:flex;
@@ -395,16 +401,27 @@ margin-top: 3px;
   text-transform: uppercase;
 }
 .date-form{
-  width: 322px;
-  height: 26px;
+  width: 300px;
+  height: 22px;
   border:none;
   padding: 0;
   background-color:var(--basic-background);
+  border:2px solid var(--basic-background);
   font-weight: bold;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
   padding-left: 13px;
+  border-radius: 0;
+}
+.date-form:hover{
+  background-color:var(--special-grey-hover-form);
+  border:2px solid var(--special-grey-hover-form);
+}
+.date-form:focus{
+border: 2px solid var(--special-grey-focus-form-border);
+background-color:var(--basic-white);
+border-radius: 0;
 }
 .date-wrapper{
  position: relative;
@@ -417,14 +434,20 @@ margin-top: 3px;
 }
 .date-wrapper input{
   padding-top: 6px;
-  padding-right: 15px;
+  padding-right: 30px;
   padding-bottom: 6px;
   padding-left: 12px;
 }
 .date-icon{
 position: absolute;
-top: 8px;
+top: 7px;
 left: 425px;
+}
+.date-icon:hover path{
+  fill: var(--basic-black);
+}
+.date-icon:focus path{
+  fill: var(--basic-blue);
 }
 .people{
   display: inline;
