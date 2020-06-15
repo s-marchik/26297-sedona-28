@@ -100,10 +100,10 @@ img{
   padding:14px;
 }
 .site-navigation a:hover {
-  background-color: var(--special-blue-hover);
+  color: var(--basic-blue);
 }
 .site-navigation a:focus {
-  background-color: var(--special-blue-focus);
+  color: rgba(0,0,0,0.3);
 } 
 .trait{
   display:flex;
