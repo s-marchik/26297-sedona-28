@@ -21,6 +21,7 @@
     --special-grey-focus:#503E33;
     --special-grey-hover-form:#ebebeb;
     --special-grey-focus-form-border:#E5E5E5;
+    --special-grey-hover-adult:#A9A9A9;
   }
 
   /* Global */
@@ -462,9 +463,7 @@ left: 425px;
 }
 .people{
   display: inline;
-  position: relative;
   margin: 0;
-  box-sizing: border-box;
 }
 .people label{
   width: 93px;
@@ -482,17 +481,30 @@ left: 425px;
   font-size: 14px;
   line-height: 26px;
 }
+.people-wrapper{
+  position: relative;
+}
 .number-down{
   content: '';
   position: absolute;
-  top: 2px;
-  left: 120px;
+  top: -7px;
+  left: -100px;
+  color:var(--special-grey-hover-adult)
 }
 .number-up{
   content: '';
   position: absolute;
-  left: 195px;
-  top:6px;
+  left: -27px;
+  top:-3px;
+  color:var(--special-grey-hover-adult)
+}
+.number-down:hover path,
+.number-up:hover path{
+  fill:var(--basic-black);
+}
+.number-down:focus path,
+.number-up:focus path{
+  fill:var(--basic-blue);
 }
 .button-form{
   display: block;
@@ -518,13 +530,83 @@ left: 425px;
 
 
 /*hotels*/
+
+
+/*filter*/
+
 .filters{
   background-image:url(/img/background_hotels.jpg);
   background-repeat: no-repeat;
 }
+.filter{
+  display: flex;
+  justify-content: flex-start;
+  color: var(--basic-white);
+  padding-top: 27px;
+  padding-left: 70px;
+  padding-right: 70px;    padding-bottom: 32px;
+} 
+.filter fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 140px;
+  margin-right: 110px;
+}
+.filter legend {
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.filter ul li{
+  padding-bottom:23px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.filter-item{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.range-filter {
+  width: 317px;
+}
+.filter-item legend {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+.range-controls {
+  height: 30px;
+  margin-top: 20px;
+}
+.range-controls .scale {
+  height: 2px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
 .found{
   background-color:var(--basic-white);
 }
+
+
+
+
+
+
+
+
 /*footer*/
 
 .main-footer{
