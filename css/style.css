@@ -144,6 +144,7 @@ img{
 display:flex;
 align-items: center;
 justify-content: center;
+margin-top: 26px;
 }
 .trait-black::before,
 .trait-black::after {
@@ -230,7 +231,7 @@ margin-top: 2px;
   padding-top: 25px;
 }
 .sity-wrapper p{
-  padding-top: 25px;
+  padding-top: 23px;
   margin:0;
 }
 .recreation{
@@ -244,14 +245,13 @@ margin-top: 2px;
 .recreation-list{
   list-style: none;
   display: flex;
-  height: 330px;
   margin: 0;
-  padding: 0;
+  padding: 56px 53px;
   align-items:center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .recreation-list li{
-  height: 191px;
+  width: 27%;
 }
 .icon-home{
   background-image:url(/img/icons/icon-home.svg);
@@ -277,12 +277,12 @@ margin-top: 2px;
 .recreation-list h3{
   font-weight: bold;
   font-size: 21px;
-  line-height: 21px;
-  margin-top: 28px;
-  margin-bottom: 25px;
+  margin-top: 23px;
+  margin-bottom: 29px;
+  line-height: 18px;
 }
 .recreation-list p{
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 }
 .canyon{
   display: flex;
@@ -323,23 +323,22 @@ margin-top: 2px;
 .advantages-list{
   list-style: none;
   display: flex;
-  height: 256px;
   margin: 0;
-  padding: 0;
-  align-items:center;
-  justify-content: space-around;
+  padding: 47px 77px 54px 77px;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .advantages-list h4{
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
-  line-height: 21px;
-  margin-top: 13px;
-  margin-bottom: 25px;
+  line-height: 20px;
+  margin: 0;
 }
 .advantages-list p{
-  margin-top: 23px;
-  margin-bottom: 8px;
+  margin-top: 22px;
+  margin-bottom: 1px;
 }
 .interested{
   text-align: center;
@@ -354,15 +353,15 @@ margin-top: 2px;
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
-  padding-top: 55px;
-  padding-bottom: 34px;
+  padding-top: 60px;
+  padding-bottom: 31px;
   margin:0;
 }
 .search .interested p{
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  padding-bottom: 47px;
+  padding-bottom: 46px;
   margin:0;
 }
 .search-hotels{
@@ -588,13 +587,49 @@ left: 425px;
 .range-controls {
   height: 30px;
   margin-top: 20px;
+  position: relative;
 }
 .range-controls .scale {
   height: 2px;
-  background: #FFFFFF;
+  background:var(--basic-white);
   mix-blend-mode: normal;
   opacity: 0.3;
 }
+.range-controls .bar {
+  width: 79%;
+  height: 2px;
+  background:red;
+} 
+.range-controls .toggle {
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid var(--basic-white);
+  background-color: var(--special-trigger);
+  border-radius:50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: -9px;
+}
+
+.range-controls .toggle-max {
+  left: 245px;
+}
+
+
+
+
+
+
+
+
+
 
 .found{
   background-color:var(--basic-white);
