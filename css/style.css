@@ -445,15 +445,15 @@ border-radius: 0;
   padding-bottom: 6px;
   padding-left: 12px;
 }
-.date-icon{
+.date-icon a{
 position: absolute;
 top: 7px;
 left: 425px;
 }
-.date-icon:hover path{
+.date-icon a:hover path{
   fill: var(--basic-black);
 }
-.date-icon:focus path{
+.date-icon a:focus path{
   fill: var(--basic-blue);
 }
 .people-list{
@@ -497,12 +497,16 @@ left: 425px;
   top:-3px;
   color:var(--special-grey-hover-adult)
 }
-.number-down:hover path,
+.number-down:hover rect{
+  fill:var(--basic-black);
+}
 .number-up:hover path{
   fill:var(--basic-black);
 }
-.number-down:focus path,
 .number-up:focus path{
+  fill:var(--basic-blue);
+}
+.number-down:focus rect{
   fill:var(--basic-blue);
 }
 .button-form{
@@ -635,7 +639,16 @@ left: 425px;
   background-color:var(--basic-white);
 }
 
-
+/*hotel-list*/
+.content{
+  display: inline-grid;
+  margin: 0;
+  padding-left: 73px;
+  padding-right: 73px;
+  padding-bottom: 30px;
+  padding-top: 43px;
+  justify-content: start;
+}
 
 
 
@@ -673,7 +686,7 @@ left: 425px;
   list-style: none
 }
 .footer-contacts a:not([href]) {
-  background-color: var(--basic-black);
+  color: var(--basic-black);
 }
 .footer-contacts p{
   font-style: normal;
