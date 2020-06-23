@@ -699,17 +699,57 @@ left: 429px;
 
 /*hotel-list*/
 .content{
-  display: inline-grid;
+  display:grid;
   margin: 0;
-  padding-left: 73px;
-  padding-right: 73px;
-  padding-bottom: 30px;
-  padding-top: 43px;
-  justify-content: start;
+  padding: 0 73px;
+  border: 2px solid red;
+  background-color:var(--basic-white);
+  grid-template-columns: 165px auto 165px;
 }
-
-
-
+.content>img{
+  align-self: center;
+}
+.test{
+  border: 2px solid fuchsia;
+}
+.content-wrap{
+  display: grid;
+  grid-template-columns: 110px 142px;
+  grid-column-gap: 6px;
+}
+.content h3{
+  border: 2px solid blue;
+  
+}
+.hotel-type{
+  border: 2px solid green;
+}
+.hotel-type a{
+  padding: 3px 16px;
+  background-color:var(--basic-blue);
+  color:var(--basic-white);
+}
+.hotel-price{
+  border: 2px solid yellow;
+}
+.hotel-price a{
+  padding: 3px 17px;
+  background-color:var(--basic-brown);
+  color:var(var(--basic-white);)
+}
+.hotel-rating{
+  display: grid;
+}
+.star{
+  justify-self: end;
+}
+.hotel-rating p{
+  justify-self: end;
+  align-self: end;
+  margin: 0;
+  padding: 3px 14px;
+  background-color:var(--basic-background);
+}
 
 
 
