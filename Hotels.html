@@ -67,11 +67,17 @@
             <legend>Стоимость в сутки(р):</legend>
             <div class="range-filter">
               <div class="price-controls">
-                <label class="min-price visually-hidden">
-                  от <input type="number" name="min-price" value="0">
-                </label>
+                <div class="min-price">
+                  <input type="number" name="min-price" value="0" id="min-price">
+                  <label for="min-price">ОТ</label>
+                </div>
+                <span>
+                  <svg width="2" height="22" viewBox="0 0 2 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="2" height="22" fill="white"/>
+                    </svg>                   
+                </span>
                 <label class="max-price visually-hidden">
-                  до <input type="number" name="max-price" value="15000">
+                  до <input type="number" name="max-price" value="3000">
                 </label>
               </div>
               <div class="range-controls">
@@ -202,5 +208,6 @@
         </p> 
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

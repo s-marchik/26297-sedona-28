@@ -583,7 +583,6 @@ left: 429px;
   width: 23px;
   height: 23px;
   background-image: url("/img/icons/checkbox-off.svg");
-  z-index: 1;
   background-repeat: no-repeat;
   background-position: 0 0;
   
@@ -600,7 +599,7 @@ left: 429px;
   background-image: url("/img/icons/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  z-index: 0;
+  z-index: 1;
 }
 .filter ul {
   padding: 0;
@@ -628,6 +627,13 @@ left: 429px;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
   height: 36px;
+  display: flex;
+}
+.min-price input{
+  width: 140px;
+  color: white;
+  margin-top: 7px;
+  position: relative;
 }
 .filter-item legend {
   font-weight: bold;
@@ -735,7 +741,7 @@ left: 429px;
 .hotel-price a{
   padding: 3px 17px;
   background-color:var(--basic-brown);
-  color:var(var(--basic-white);)
+  color:var(--basic-white);
 }
 .hotel-rating{
   display: grid;
