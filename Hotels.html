@@ -29,6 +29,7 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр гостиниц</h2>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <div class="filter-wrapper">
           <fieldset>
             <legend>Ифрастуктура:</legend>
             <ul>
@@ -63,13 +64,14 @@
               </li>
             </ul>
           </fieldset>
+          </div>
           <fieldset class="filter-item">
             <legend>Стоимость в сутки(р):</legend>
             <div class="range-filter">
               <div class="price-controls">
                 <div class="min-price">
-                  <input type="number" name="min-price" value="0" id="min-price">
-                  <label for="min-price">ОТ</label>
+                  <input class="visually-hidden" type="number" name="min-price" value="0" id="min-price">
+                  <label for="min-price">ОТ 0</label>
                 </div>
                 <span>
                   <svg width="2" height="22" viewBox="0 0 2 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,13 +97,15 @@
         
       <section>
         <div class="found">
-          <h3>Найдено:3</h3>
-          <p>Сортировка:</p>
-          <ul>  
-            <li><a href="#">по цене</a></li>
-            <li><a href="#">по типу</a></li>
-            <li><a href="#">по рейтингу</a></li>
-          </ul>
+          <div class="found-wrapper">
+            <h3>Найдено:3</h3>
+            <p>Сортировка:</p>
+            <ul>  
+              <li><a href="#">по цене</a></li>
+              <li><a href="#">по типу</a></li>
+              <li><a href="#">по рейтингу</a></li>
+            </ul>
+          </div>
           <div class="strel">
           <span>
             <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">

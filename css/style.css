@@ -22,7 +22,8 @@
     --special-grey-hover-form:#ebebeb;
     --special-grey-focus-form-border:#E5E5E5;
     --special-grey-hover-adult:#A9A9A9;
-    --special-footer-background:rgba(255,255,255,0.9)
+    --special-footer-background:rgba(255,255,255,0.9);
+    --special-white:rgba(255,255,255,0.3);
   }
 
   /* Global */
@@ -377,6 +378,8 @@ margin-top: 2px;
 }
 .search-hotels:focus{
   background-color:var(--special-grey-focus);
+  color:var(--special-white);
+  
 }
 .map{
   background-image:url(/img/map1.jpg);
@@ -545,14 +548,17 @@ left: 429px;
 }
 .filter{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   color: var(--basic-white);
   padding-top: 27px;
   padding-left: 70px;
   padding-right: 70px;  
   padding-bottom: 15px;
 } 
-.filter fieldset {
+.filter-wrapper{
+  display: flex;
+}
+.filter-wrapper fieldset {
   padding: 0;
   margin: 0;
   border: none;
@@ -620,11 +626,17 @@ left: 429px;
   height: 36px;
   display: flex;
 }
-.min-price input{
-  width: 140px;
+.min-price {
+  width: 158px;
   color: white;
   margin-top: 7px;
-  position: relative;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;  
+}
+.price-controls span{
+  padding-top: 6px;
 }
 .filter-item legend {
   font-weight: bold;
@@ -685,6 +697,10 @@ left: 429px;
   background-color:var(--basic-white);
   display: flex;
   padding: 0 73px;
+  justify-content:space-between;
+}
+.found-wrapper{
+  display: flex;
 }
 .found h3{
   font-weight: bold;
@@ -714,7 +730,9 @@ font-size: 12px;
 line-height: 18px;
 padding-left: 40px;
 }
-
+.strel{
+  align-self:center;
+}
 
 /* Hotel-list */
 
