@@ -102,8 +102,8 @@ img{
 .site-navigation li:nth-child(3){
   width: 172px;
 }
-.site-navigation-current a:not([href]) {
-  background-color: var(--basic-blue);
+.site-navigation .current a{
+  color: var(--basic-brown);
 }
 .site-navigation a {
   color: var(--basic-black);
@@ -171,8 +171,8 @@ margin-top: 2px;
   display:flex;
   justify-content: center;
   align-items: center;
-  background-color:var(--special-grey-ratimg-font);
-  background-image: url("/img/background\ photo.jpg");
+  background-color:var(--special-black-opacity);
+  background-image: url(../img/background_photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -180,7 +180,7 @@ margin-top: 2px;
 }
 .intro:before{
   content: '';
-  background: url(/img/Shape.png) center bottom no-repeat;
+  background: url(../img/Shape.png) center bottom no-repeat;
   position: absolute;
   top: -57px;
   left: 0;
@@ -262,13 +262,13 @@ margin-top: 2px;
   display: inline-block;
 }
 .icon-home{
-  background-image:url(/img/icons/icon-home.svg);
+  background-image:url(../img/icons/icon-home.svg);
 }
 .icon-food{
-  background-image:url(/img/icons/icon-food.svg);
+  background-image:url(../img/icons/icon-food.svg);
 }
 .icon-present{
-  background-image:url(/img/icons/icon-present.svg);
+  background-image:url(../img/icons/icon-present.svg);
 }
 .recreation-list h3{
   font-weight: bold;
@@ -384,7 +384,7 @@ margin-top: 2px;
   color: var(--special-white);
 }
 .map{
-  background-image:url(img/map1.jpg);
+  background-image:url(../img/map1.jpg);
   background-repeat: no-repeat;
   height: 594px;
   position: relative;
@@ -475,10 +475,10 @@ left: 429px;
   width: auto;
 }
 .people input{
-  width:18px;
+  width:8px;
   height: 26px;
   border:none;
-  padding: 6px 48px;
+  padding: 6px 52px;
   background-color:var(--basic-background);
 }
 .adults-form{
@@ -540,7 +540,7 @@ left: 429px;
 /* Filter */
 
 .filters{
-  background-image:url(/img/background_hotels.jpg);
+  background-image:url(../img/background_hotels.jpg);
   background-repeat: no-repeat;
 }
 .filter{
@@ -581,16 +581,16 @@ left: 429px;
   top: 0;
   width: 27px;
   height: 25px;
-  background-image: url("/img/icons/checkbox-off.svg");
+  background-image: url(../img/icons/checkbox-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 .filter-input-checkbox:checked + label::before {
-  background-image: url("/img/icons/checkbox-on.svg");
+  background-image: url(../img/icons/checkbox-on.svg);
  
 }
 .filter-input-checkbox.incative{
-  background-image: url("img/icons/checkbox-inactive.svg");
+  background-image: url(../img/icons/checkbox-inactive.svg);
 }
 .filter ul {
   padding: 0;
@@ -801,8 +801,6 @@ padding-left: 40px;
 }
 .content>img{
   align-self: end;
-}
-.content-sort{
 }
 .content-wrap{
   display: grid;
