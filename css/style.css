@@ -706,6 +706,8 @@ left: 429px;
   box-shadow: 0 2px 1px 0 #cfcfcf;
   position: absolute;
   cursor: pointer;
+  margin-top: -1px;
+  margin-left: -1px;
 }
 .button-price{
   border: 2px solid var(--basic-white);
