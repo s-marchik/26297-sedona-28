@@ -8,7 +8,6 @@
     --basic-brown: #766357;
     --basic-white: #ffffff;
     --basic-background:#F2F2F2;
-    --box-shadow:rgba(0, 1, 1, 0.2);
   
     --special-htmlacademy: #231F20;
     --special-htmlacademy-focus: #BDBBBC;
@@ -41,6 +40,7 @@ body{
     color: var(--basic-black-font);
     text-transform: uppercase;
     background-color: var(--basic-background);
+    
 }    
 section{
   width: 1200px;
@@ -71,11 +71,7 @@ img{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.shadow-wrapper{
-  box-shadow: 0px 5px 15px var(--box-shadow);
-  width: 1200px;
-  margin: 0 auto;
-}
+
 /* Main navigation */
 
 .main-navigation{
@@ -378,7 +374,6 @@ margin-top: 2px;
   display:inline-block;
   text-transform: uppercase;
   font-style: normal;
-  cursor: pointer;
 }
 .search-hotels:hover{
   background-color:var(--special-grey-hover);
@@ -533,7 +528,6 @@ left: 429px;
   text-transform: uppercase;
   border: none;
   margin-top: 55px;
-  cursor: pointer;
 }
 .button-form:hover{
   background-color:var(--special-blue-hover);
@@ -703,8 +697,6 @@ left: 429px;
   box-shadow: 0 2px 1px 0 #cfcfcf;
   position: absolute;
   cursor: pointer;
-  margin-top: -1px;
-  margin-left: -1px;
 }
 .button-price{
   border: 2px solid var(--basic-white);
@@ -825,9 +817,6 @@ padding-left: 40px;
   font-size: 21px;
   line-height: 21px;
 }
-.content h3 a{
-  color:var(--basic-black);
-}
 .content h3 a:not([href]),
 .content h3 a:visited {
   color: var(--basic-black);
@@ -922,7 +911,6 @@ padding-left: 40px;
   margin: 0;
   text-align: center;
   padding-bottom: 23px;
-  box-shadow:none;
 }
 .footer-contacts a{
   font-style: normal;
@@ -946,7 +934,6 @@ padding-left: 40px;
   width:150px;
   padding-left: 0;
   text-align: center;
-  box-shadow:none;
 }
 .footer-social ul{
   list-style: none;
