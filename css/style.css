@@ -36,7 +36,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family:'PT Sans', sans-serif;
+    font-family:'PT Sans', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: normal;
@@ -62,6 +62,9 @@ a{
 img{
   max-width: 100%;
   height: auto;
+}
+iframe{
+  border: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -717,7 +720,7 @@ margin-top: 2px;
   text-transform: uppercase;
   display: block;
   margin: 0 auto;
-  font-family: "PT Sans";
+  font-family:'PT Sans', 'Arial', sans-serif;
 }
 .button-price:hover{
   color:var(--basic-black);
