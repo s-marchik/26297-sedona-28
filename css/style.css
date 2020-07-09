@@ -96,6 +96,7 @@ iframe{
 .main-header-logo{
   position: absolute;
   left:531px;
+  z-index: 1;
 }
 .site-navigation{
   height: 54px;
@@ -107,10 +108,10 @@ iframe{
   padding: 0 58px;
 }
 .site-navigation li{
-  width: 21%;
+  width: 25%;
 }
-.site-navigation li:nth-child(3){
-  width: 172px;
+.site-navigation .nav-list-empty-right{
+  margin-right: 170px;
 }
 .site-navigation .current a{
   color: var(--basic-brown);
@@ -119,7 +120,7 @@ iframe{
   color: var(--basic-black);
   padding:14px;
 }
-.site-navigation .nav-list-rigth{
+.site-navigation .nav-list-right{
   text-align: right;
 }
 .site-navigation .nav-list-left{
@@ -187,19 +188,19 @@ margin-top: 2px;
   background-size: cover;
   margin: 0 auto;
   height: 509px;
+  position: relative;
 }
-.intro:before{
+.welcome::after{
   content: '';
   background: url(../img/shape.png) center bottom no-repeat;
   position: absolute;
-  top: -57px;
+  top: 452px;
   left: 0;
   width: 100%;
   height: 57px;
 }
 .intro{
   background:var(--basic-white);
-  position: relative;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
@@ -211,17 +212,18 @@ margin-top: 2px;
   line-height: 27px;
   text-align: center;
   padding-top: 41px;
-  margin: 0;
+  margin: 0 auto;
+  width: 500px;
 }
 .intro p{
   padding-top: 43px;
   padding-bottom: 53px;
   margin: 0;
 }
-.sity{
+.city{
   display:flex;
 }
-.sity-wrapper{
+.city-wrapper{
   width: 400px;
   background-color:var(--basic-blue);
   font-weight: normal;
@@ -234,19 +236,21 @@ margin-top: 2px;
 .img-wrapper{
   height: 256px;
 }
-.sity-wrapper h3{
+.city-wrapper h3{
   font-weight: bold;
   font-size: 21px;
   line-height: 23px;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 45px;
+  width: 210px;
 }
-.sity-wrapper span{
+.city-wrapper span{
   padding-top: 25px;
 }
-.sity-wrapper p{
+.city-wrapper p{
   padding-top: 23px;
-  margin:0;
+  margin:0 auto;
+  width: 300px;
 }
 .recreation{
   text-align: center;
@@ -260,7 +264,7 @@ margin-top: 2px;
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 55px 0px;
+  padding: 55px 0px 82px;
 }
 .recreation-list li{
   width: 33.33%;
@@ -289,6 +293,8 @@ margin-top: 2px;
 }
 .recreation-list p{
   margin-bottom: 28px;
+  margin: 0 auto;
+  width: 300px;
 }
 .canyon{
   display: flex;
@@ -307,15 +313,17 @@ margin-top: 2px;
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
-  margin: 0;
-  padding-top: 50px;
+  margin: 0 auto;
+  padding-top: 49px;
+  width: 150px;
 }
 .canyon-wrapper span{
-  padding-top: 25px;
+  padding-top: 26px;
 }
 .canyon-wrapper p{
   padding-top: 23px;
-  margin:0;
+  margin:0 auto;
+  width: 310px;
 }
 .advantages{
   text-align: center;
@@ -342,11 +350,12 @@ margin-top: 2px;
   font-weight: bold;
   font-size: 21px;
   line-height: 22px;
-  margin: 0;
+  margin: 0 auto;
+  width: 150px;
 }
 .advantages-list p{
-  margin-top: 23px;
-  margin-bottom: 11px;
+  margin: 0 auto;
+  padding: 23px 0 11px;
 }
 .interested{
   text-align: center;
