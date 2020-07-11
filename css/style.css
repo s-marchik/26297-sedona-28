@@ -356,6 +356,7 @@ margin-top: 2px;
 .advantages-list p{
   margin: 0 auto;
   padding: 23px 0 11px;
+  width: 265px;
 }
 .interested{
   text-align: center;
@@ -377,8 +378,8 @@ margin-top: 2px;
 .search .interested p{
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  padding-bottom: 46px;
+  line-height: 26px;
+  padding-bottom: 44px;
   margin:0;
 }
 .search-hotels{
@@ -929,7 +930,6 @@ margin-top: 2px;
   margin: 0;
   text-align: center;
   padding-bottom: 23px;
-  box-shadow:none;
 }
 .footer-contacts a{
   font-style: normal;
@@ -937,9 +937,7 @@ margin-top: 2px;
   font-size: 21px;
   line-height: 40px;
   margin: 0;
-  list-style: none
-}
-.footer-contacts a:not([href]) {
+  list-style: none;
   color: var(--basic-black);
 }
 .footer-contacts p{
