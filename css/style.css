@@ -366,6 +366,7 @@ margin-top: 2px;
   line-height: 21px;
   background-color:var(--basic-white);
   list-style: none;
+  position: relative;
 }
 .search .interested h3{
   font-weight: bold;
@@ -420,9 +421,10 @@ margin-top: 2px;
   color:var(--basic-black);
   box-shadow: 0px 7px 15px var(--special-form-shadow);
   position: absolute;
-  top: 2174px;
+  top: 2164px;
   left: 50%;
   margin-left: -284px;
+  z-index: 1;
 }
 .arrival{
   padding:55px;
@@ -792,17 +794,17 @@ margin-top: 2px;
   color:var(--basic-black);
   border-color: #fff;
 }
-.strel{
+.arrow{
   align-self:center;
   margin-top: 8px;
 }
-.strel span:nth-child(odd){
+.arrow span:nth-child(odd){
   padding-right: 8px;
 }
-.strel>span>a:hover path{
+.arrow>span>a:hover path{
   fill:var(--basic-black);
 }
-.strel>span>a:focus path{
+.arrow>span>a:focus path{
   fill:var(--basic-blue);
 }
 
