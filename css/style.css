@@ -127,6 +127,7 @@ iframe{
   width: 8px;
   height: 1px;
   background: var(--basic-white);
+  vertical-align: unset;
 }
 .trait::before{
   margin-right: 5px;
@@ -150,6 +151,7 @@ iframe{
   width: 8px;
   height: 1px;
   background: var(--basic-black-font);
+  vertical-align: unset;
 }
 .trait-black::before{
   margin-right: 5px;
@@ -493,6 +495,7 @@ p.date-wrapper{
 .people label{
   width: 110px;
   display: inline-block;
+  vertical-align: unset;
 }
 .childs label{
   margin: 0 24px 0 50px;
