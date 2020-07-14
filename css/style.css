@@ -8,7 +8,7 @@
     --basic-white: #ffffff;
     --basic-background: #F2F2F2;
     --box-shadow: rgba(0, 1, 1, 0.2);
-  
+
     --special-htmlacademy: #231F20;
     --special-htmlacademy-focus: #BDBBBC;
     --special-trigger: #ABABAB;
@@ -113,7 +113,7 @@ iframe{
 }
 .site-navigation a:focus{
   color: var(--special-black-opacity);
-} 
+}
 .trait{
   display: flex;
   align-items: center;
@@ -248,7 +248,7 @@ iframe{
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 55px 0px 82px;
+  padding: 55px 0px 54px;
 }
 .recreation-list li{
   width: 33.33%;
@@ -600,7 +600,7 @@ p.date-wrapper{
   padding-left: 72px;
   padding-right: 73px;
   padding-bottom: 8px;
-} 
+}
 .filter-wrapper{
   display: flex;
 }
@@ -636,7 +636,7 @@ p.date-wrapper{
 }
 .filter-input-checkbox:checked + label::before{
   background-image: url(../img/icons/checkbox-on.svg);
- 
+
 }
 .filter-input-checkbox.incative{
   background-image: url(../img/icons/checkbox-inactive.svg);
@@ -678,7 +678,7 @@ p.date-wrapper{
   text-align: center;
   font-weight: normal;
   font-size: 14px;
-  line-height: 28px; 
+  line-height: 28px;
 }
 .max-price{
   width: 155px;
@@ -686,7 +686,7 @@ p.date-wrapper{
   text-align: center;
   font-weight: normal;
   font-size: 14px;
-  line-height: 28px;  
+  line-height: 28px;
 }
 .price-controls span{
   padding-top: 4px;
@@ -712,7 +712,7 @@ p.date-wrapper{
   height: 2px;
   background: var(--basic-white);
   z-index: 1;
-} 
+}
 .range-controls .toggle{
   width: 3px;
   height: 3px;
