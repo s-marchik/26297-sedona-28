@@ -1,0 +1,1 @@
+let searchHotels=document.querySelector(".search-hotels"),form=document.querySelector(".form");searchHotels.onclick=function(){form.classList.toggle("visually-hidden")};
